@@ -1,0 +1,331 @@
+:root {
+    --color_one: #164863;
+    --color_two: #427D9D;
+    --color_three: #9BBEC8;
+    --color_four: #DDF2FD;
+
+
+    --color_five: #451952;
+    --color_six: #662549;
+    --color_seven: #AE445A;
+    --color_eight: #F39F5A;
+
+
+    --color-9: #2B3499;
+    --color-10: #FF6C22;
+    --color-11: #FF9209;
+    --color-12: #FFD099;
+    
+    --color-13: hsl(242, 100%, 62%);
+    --color-14: #0802A3;
+    --color-15: #FF7676;
+    --color-16: #FFCD4B;
+    
+    --color-17: #45FFCA;
+    --color-18: #6a99f0;
+    --color-19: #FFB6D9;
+    --color-20: #D67BFF;
+    
+    --color-21: #610C9F;
+    --color-22: #940B92;
+    --color-23: #DA0C81;
+    --color-24: #E95793;
+    
+    
+    --color-25: #00A9FF;
+    --color-26: #89CFF3;
+    --color-27: #A0E9FF;
+    --color-28: #CDF5FD;
+
+    --color-29: #3D30A2;
+    --color-30: #B15EFF;
+    --color-31: #FFA33C;
+    --color-32: #FFFB73;
+    
+    --color-33 : #222831;
+    --color-34 : #393E46;
+    --color-35 : #00ADB5;
+    --color-36 : #EEEEEE;
+
+}
+body {
+    margin: 0;
+    background-color: var(--color_four);
+}
+nav {
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    flex-direction: row;
+    background-color: var(--color_one);
+    width: 100%;
+    max-height: 70px;
+    border: 0;
+}
+nav > div {
+    padding: 5px 5px;
+    margin: 7px;
+    border-radius: 5px;
+}
+.brandName {
+    color:var(--color_four);
+    margin-left: 0;
+}
+.logo {
+    margin-right: 0;
+    padding-right: 0;
+}
+.logo > svg {
+    fill: white;
+    min-width: 50px;
+}
+
+
+
+.searchbox {
+    transition: all 0.1s;
+    margin:15px 5px;
+    padding: 0px 12px;
+    border-radius: 50px;
+    border: 0;
+
+}
+input[type=text]:focus {
+    outline: none;
+    box-shadow: 10px 10px 60px 5px rgba(255, 247, 247, 0.495);
+
+}
+
+#belowNav {
+    display:flex;
+}
+
+
+#belowNav > #sideBar {
+    background-color: #DDF2FD;
+}
+
+#sideBar > div {
+    padding: 0px 15px;
+    display: flex;
+
+}
+#sideBar > div > svg {
+    width:25px;
+    margin-left: 5px;
+}
+#sideBar > div:hover {
+    cursor: pointer;
+}
+
+#sideBar > div:hover > svg{
+    fill: var(--color_one);
+    cursor: pointer;
+    
+}
+#sideBar > div > p {
+    margin-left: 10px;
+    margin-top: 16px;
+}
+.text-style {
+    font-family:Arial, Helvetica, sans-serif;
+
+    font-weight: 700;
+
+
+}
+
+#mainBody {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.infopanel {
+    margin-top: 5px;
+    display: flex;
+    
+}
+
+.infopanel > svg {
+    max-width: 20px;
+}
+.right{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+        align-content: flex-end;
+    padding:5px;
+}
+.left {
+    cursor: pointer;
+    display:flex;
+    border-radius: 15px 0px 0px 15px;
+    min-width: 25px;
+    background-color:var(--color_four);
+    padding: 2px;
+    margin-right: auto;
+}
+.left > svg {
+    
+    min-width: 25px;
+}
+.left:hover > svg {
+    fill: var(--color_three);
+}
+
+.counter {
+    border-radius: 0px 0px 15px 15px;
+    background-color: var(--color_four);
+    margin-right: auto;
+    padding: 5px;
+}
+.card {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.palette {
+    width: 100%;
+    height: 25%;
+}
+.firstColor {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.cardOne > #colorone{
+    
+    background-color: var(--color_one);
+    
+}
+.cardOne > #colortwo{
+  
+    background-color: var(--color_two);
+}
+.cardOne > #colorthree{
+   
+    background-color: var(--color_three);
+}
+.cardOne > #colorfour{
+ 
+    background-color: rgb(255, 0, 183);
+    
+}
+
+.cardTwo > #colorone {
+    background-color: var(--color_five);
+}
+.cardTwo > #colortwo {
+    background-color: var(--color_six);
+}
+.cardTwo > #colorthree {
+    background-color: var(--color_seven);
+}
+.cardTwo > #colorfour {
+    background-color: var(--color_eight);
+}
+
+.cardThree > #colorone {
+    background-color: var(--color-9);
+    
+}
+
+.cardThree > #colortwo {
+    background-color: var(--color-10);
+    
+}
+
+.cardThree > #colorthree {
+    background-color: var(--color-11);
+    
+}
+
+.cardThree > #colorfour {
+    background-color: var(--color-12);
+    
+}
+
+.card4 > #colorone {
+    background-color: var(--color-13);
+}
+
+.card4 > #colortwo {
+    background-color: var(--color-14);
+}
+.card4 > #colorthree {
+    background-color: var(--color-15);
+}
+.card4 > #colorfour {
+    background-color: var(--color-16);
+}
+
+.card5 > #colorone {
+    background-color: var(--color-17);
+}
+.card5 > #colortwo {
+    background-color: var(--color-18);
+}
+.card5 > #colorthree {
+    background-color: var(--color-19);
+}
+.card5 > #colorfour {
+    background-color: var(--color-20);
+}
+
+.card6 > #colorone {
+    background-color: var(--color-21);
+}
+
+.card6 > #colortwo {
+    background-color: var(--color-22);
+}
+.card6 > #colorthree {
+    background-color: var(--color-23);
+}
+.card6 > #colorfour {
+    background-color: var(--color-24);
+}
+
+.card7 > #colorone {
+    background-color: var(--color-25);
+}
+
+.card7 > #colortwo {
+    background-color: var(--color-26);
+}
+
+.card7 > #colorthree {
+    background-color: var(--color-27);
+}
+.card7 > #colorfour {
+    background-color: var(--color-28);
+}
+.card8 > #colorone {
+    background-color: var(--color-29);
+}
+.card8 > #colortwo {
+    background-color: var(--color-30);
+}
+
+.card8 > #colorthree {
+    background-color: var(--color-31);
+}
+.card8 > #colorfour {
+    background-color: var(--color-32);
+}
+
+.card9 > #colorone {
+    background-color: var(--color-33);
+}
+
+.card9 > #colortwo {
+    background-color: var(--color-34);
+}
+
+.card9 > #colorthree {
+    background-color: var(--color-35);
+}
+
+.card9 > #colorfour {
+    background-color: var(--color-36);
+}
